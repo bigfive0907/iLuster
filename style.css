@@ -1,0 +1,450 @@
+
+@media screen and (max-width: 700px) {
+    .mainbody {
+        width: 98%;
+    }
+    .header {
+      width: 30%;
+    }
+    .container {
+      width: 70%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mainbody {
+      width: 98%;
+    }
+    .header {
+      width: 30%;
+    }
+    .container {
+      width: 70%;
+    }
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    opacity: 0.6;
+}
+
+.item02 ul li:hover{
+    opacity: 0.6;
+}
+
+.item02 .menuico{
+    position: fixed;
+    top: 35px;
+    left: 30px;
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 0;
+    justify-content: left;
+    padding: px px px px;
+}
+
+
+
+.item02 .list1 summary{
+    position: absolute;
+}
+
+.item02 .list2 img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    vertical-align: text-bottom;
+   
+    padding: px px px px;
+}
+
+.item02 details summary{
+    text-align: left;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.item02 details summary:hover{
+    opacity: 0.6;
+}
+
+
+
+.item02 ul{
+    list-style-type: none;
+    padding-left: 0px;
+    border: #333;
+}
+
+.item02 .list2 .mainlist li{
+    font-size: 20px;
+    font-size: clamp(20px, 1vw, 25px);
+
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    padding: 0px 0px 30px;
+}
+
+.item02 .list2 ul{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.559);
+    
+    justify-content: space-between;
+    
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.item02 .list2 .mainlist ul{
+    margin-left: 20px;
+}
+
+.item02 .list2 .sublist ul{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.item02 .mainlist li{
+   
+    font-size: 20px;
+    font-size: clamp(20px, 1vw, 25px);
+
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 20px 10px;
+
+}
+
+.item02 .list2 .sublist summary{
+    position: relative;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+
+.item02 .sublist .largelist{
+    text-align: left;
+    background: rgba(255, 255, 255, 0.559);
+    display: block;
+    justify-content: space-between;
+    
+    position: relative;
+    padding: 10px 0px 30px;
+    top: 10px;
+    left: 0px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.sublist .largelist li{
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-size: clamp(12px, 1vw, 20px);
+    font-weight: bold;
+}
+
+.sublist .largelist .smalllist{
+    width: 100%;
+    position: relative;
+    margin-top: 0px;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.sublist .smalllist ul{
+    position: relative;   
+    list-style-type: none;
+    text-align: left;
+    top: 10px;
+    left: 0px;
+}
+
+.sublist .smalllist li{
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    
+    margin-left: 0px;
+}
+
+
+
+#form1{
+    position: relative;
+    max-width: 350px;
+    margin-bottom: 15px;
+    margin-top: 10px; 
+}
+
+#sbox1{
+    position: relative;
+    left: 10;
+    top: 0;
+    outline: 0;
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    background: rgb(238, 238, 238);
+    
+
+}
+
+.head_container .search_box{
+
+    width: 100%;
+    height: 60px;
+    background: rgb(255, 255, 255);
+    padding: 1px 10px 1px;
+    position: absolute;
+    top: 10px;
+    left: 40%;
+
+}
+
+#sbtn1{
+    width: 40px;/*検索ボタンの横幅*/ 
+    height: 40px;/*検索ボタンの縦幅*/ 
+    position: absolute;/*検索ボタンの絶対位置*/  
+    left: 330px;/*検索ボタンの位置調整*/  
+    top: 0px;
+    border-radius:5px 5px 5px 5px;/*検索ボタンの角を丸める*/ 
+    background:rgb(255, 255, 255);/*検索ボタンの背景カラー*/ 
+    border:none;/*検索ボタンの枠線を消す*/ 
+    }
+
+#sbtn1:hover{
+    color:rgb(38, 38, 38);/*検索ボタンマウスオーバー時のフォントカラー*/ 
+    }
+
+
+
+.w_inner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.head_item ul{
+    display: flex;
+    list-style-type: none;
+   
+}
+.head_item li{
+    min-width: 150px;
+}
+
+.head_item{
+    width: 20%;
+}
+
+.head_container{
+    padding-top: 0px; /*余白*/
+    padding-bottom: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+h1{
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px;
+}
+
+.h1_icon ul{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    margin-top: 0;
+    justify-content: center;
+    padding: px px px px;
+}
+
+
+
+
+
+
+.item03{
+    width: 80%;
+    padding: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 15%;
+    margin-right: auto;
+    height: auto;
+}
+.item03 h2{
+    text-align: left;
+}
+
+.item03 .rank_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 20px;
+    text-align: center;
+    position: relative;
+}
+.item03 .rank_container img{
+    width: 60%;
+   
+}
+
+.item03 .rank_container img:hover{
+    opacity: 0.5;
+}
+
+.item03 .rank_container .ttl{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+}
+
+.item03 .rank_container .explain{
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rank_container .service .explain a{
+    background: rgb(193, 214, 193);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 5px;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+
+.item01{
+    height: 90%;
+}
+
+.item01 h2{
+    text-align: center;
+    
+}
+
+.container{
+    margin-left: 10%;
+    margin-right: auto;
+    padding: 0px 60px 0px;
+    height: 100%;
+}
+
+.container_service .service_block{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+   
+    
+}
+.container_service .service{
+    width: 400px;
+    height: 100%;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+    padding-bottom: 30px;
+    
+    
+}
+
+.container_service .service img{
+    width: 50%;
+    margin-bottom: 20px;
+    height: 50%;
+}
+
+.container_service .service .ttl{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container_service .service .explain{
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.container_service .service a{
+    background: rgb(236, 236, 236);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px 5px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+.article_conteiner{
+    display: flex;
+}
+
+.article_item{
+    width: 47%;
+    display: inline-block;
+}
+.article_item img{
+    width: 99%;
+}
+.article_item p{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    width: 100%;
+    background-color: rgba(144, 238, 144, 0.148); 
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 16px;
+}
